@@ -181,7 +181,7 @@ public void onSelectImageClick(View view) {
 
 
          int count = db.getContact(Integer.parseInt(counter));
-            Toast.makeText(this, "The size is  "+ count, Toast.LENGTH_LONG).show();
+           
            // Contact contact =  db.getContact(Integer.parseInt(counter));
         if(count==0)
         db.addContact(new Contact(picUri.toString(), counter));
